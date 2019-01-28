@@ -1,0 +1,378 @@
+body{
+  font-family: 'Open sans', sans-serif;
+  margin: 0;
+}
+
+img{
+  max-width: 100%;
+}
+
+.container{
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.last-info{
+  margin-top: 177px;
+  padding-bottom: 167px;
+  width: 100%;
+  max-width: 1070px;
+  height: 606px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu{ 
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name{
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.description{
+  margin-left: 9px;
+}
+
+.menu-logo{
+  display: flex;
+  align-items:center;
+}
+
+
+.avatar{
+  width: 57px;
+  height: 57px;
+  background: url(https://pp.userapi.com/c844720/v844720657/f6f19/KNVhBJ_FQe0.jpg);
+  border-radius: 50%;
+  background-size: 100%;
+}
+
+.menu-list{
+  display: flex;
+  align-items: center;
+}
+
+.menu-list a{
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+}
+
+.menu-button{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+
+a {
+  display: inline-block;
+  color:black;
+  line-height: 1;
+  text-decoration:none;
+  cursor: pointer;
+  position:relative;
+}
+a:after {
+  background-color: black;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  left:50%;
+  position:absolute;
+  -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  -webkit-transform:translateX(-50%);
+  -moz-transform:translateX(-50%);
+  transform:translateX(-50%);
+}
+a:hover:after,
+a:focus:after {
+  width: 100%;
+}
+
+.hero{
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url(https://i.ibb.co/v18PVck/2-layers.png) no-repeat right bottom;
+}
+
+.photo{
+  padding-top: 154px;
+  width: 1072px;
+  height: 606px;
+  background: url(https://i.ibb.co/HNQ8VLJ/2-layers-1.png) no-repeat;
+}
+
+.about{
+  width: 211px;
+  height: 34px;
+  padding-left: 600px;
+  font-size: 45px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+
+.inform{
+  padding-left: 600px;
+  width: 471px;
+  height: 252px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.hero-subtitle{
+  font-size: 32px;
+}
+
+.hero-title{
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hero-description{
+  font-size: 18px;
+  color: #6a696b;
+}
+
+.hero-social{
+  margin-top: 30px;
+}
+
+.social{
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+
+.behance-bg{
+  background-color: #1869ff;
+}
+
+.fb-bg{
+  background-color: #3a5898;
+}
+
+.instagram-bg{
+  background-color: #13578a;
+}
+
+.vk-bg{
+  background-color: #56acef;
+}
+
+.hero-buttons{
+  margin-top: 40px;
+}
+
+.button{
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+
+.button-primary{
+  color: #fff;
+}
+
+.button-primar{
+  color: #fff;
+  margin-left: 600px;
+  margin-top: 53px;
+}
+
+.button-o{
+  background-color: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+  margin-left: 17px;
+}
+
+.button-i{
+  background-color: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+  margin-left: 17px;
+  
+  
+}
+
+.project{
+  padding: 97px 0px;;
+}
+
+.project-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-card{
+  min-height: 370px;
+  width: 370px ;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+
+.project-card_image{
+  height: 300px;
+}
+
+.landing-page{
+  background: url(https://www.brightedge.com/sites/default/files/landing%20page%20content%20optimization.jpg) center;
+  background-size: 100%;
+}
+
+.s1{
+  background: url(https://www.artbelov.com/img/design_site.png) no-repeat center;
+  background-size: 100%;
+}
+
+.s2{
+  background: url(https://thumbnails-visually.netdna-ssl.com/how-to-properly-optimize-your-landing-page_52aeaca4e931f_w1500.jpg) no-repeat center;
+  background-size: 100%;
+}
+
+.s3{
+  background: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/2442329/580/386/m1/fpnw/wm0/onetouch-mobile-app-landing-page-screenshot-3-.jpg?1490173732&s=5148d859939dd986a4bb830ceaf862fe) no-repeat center;
+  background-size: 100%;
+}
+
+.s4{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2O1j7Z9OJGZEY1lpO7Uh5KUMpxBrTYoMh08ETgw50vTzQZhmqlA) no-repeat center;
+  background-size: 100%;
+}
+
+.s5{
+  background: url(https://cdnwp.mobidea.com/academy/wp-content/uploads/2017/12/what-is-a-landing-page-760x428.jpg) no-repeat center;
+  background-size: 100%;
+}
+
+.s6{
+  background: url(http://blog.seonic.pro/wp-content/uploads/2018/01/urip-wordpress-desantno-stranic-temy2.jpeg) no-repeat center;
+  background-size: 100%;
+}
+
+.s7{
+  background: url(https://s.tmimgcdn.com/scr/63400/wordpress-sablon-lending-na-temu-knigi_63408-original.jpg?width=768&height=859) no-repeat center;
+  background-size: 100%;
+}
+
+.s8{
+  background: url(http://pr-cy.ru/news/upload/119632/images/c33f7873b653bdda1fa3d338b8348f18.jpg) no-repeat center;
+  background-size: 100%;
+}
+
+
+.project-card_info{
+  padding: 19px 13px;
+}
+
+.project-category{
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.footer{
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+
+.footer a{
+  color: #8d8d8e;
+  text-decoration: none;
+}
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text{
+  display: flex;
+  align-items: center;
+}
+
+.copyright{
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+
+.footer-social-link{
+  font-size: 20px;
+  margin-right: 13px;
+}
+
+.footer-menu{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu a{
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.footer-button{
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 8px 22px;
+  border: 1px solid #8d8d8e;
+}
+
+@media (max-width: 1200px){
+  .comtainer
+  width: 965px;
+}
+
+.project-card{
+  width: 48%;
+}
+
+@media (max-width: 768px){
+  .comtainer
+  width: 750px;
+}
